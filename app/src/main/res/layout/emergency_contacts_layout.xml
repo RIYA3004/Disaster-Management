@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/firebrigadeservicesbtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/sb"
+        android:layout_marginEnd="40dp"
+        android:text="FIRE BRIGADE SERVICES"
+        android:background="@drawable/cardlayout"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hospitalbtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:text="HOSPITAL"
+        android:background="@drawable/cardlayout"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/sb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firebrigadeservicesbtn" />
+
+    <Button
+        android:id="@+id/policestnbtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:text="POLICE STATION"
+        android:background="@drawable/cardlayout"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/sb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalbtn" />
+
+    <Button
+        android:id="@+id/armycontactbtn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:text="REQUEST HELP FROM ARMY"
+        android:background="@drawable/cardlayout"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/sb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/policestnbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

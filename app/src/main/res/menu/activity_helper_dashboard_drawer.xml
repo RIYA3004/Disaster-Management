@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/helperreliefcentre"
+            android:icon="@drawable/ic_add_location_black_24dp"
+            android:title="Relief Centers"/>
+
+        <item
+            android:id="@+id/helpergallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery"/>
+
+        <item
+            android:id="@+id/helperreliefcentrereqdisplay"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Relief Center Requirements"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/helperlogut"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".med_status">
+
+    <TextView
+        android:id="@+id/toiletries"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:height="55dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/sb"
+        android:text="TOILETRIES"
+        android:textAlignment="center"
+        android:textColor="#fefefe"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Blanket"
+        android:layout_width="195dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/sb"
+        android:paddingLeft="20dp"
+        android:text="BLANKET"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toiletries" />
+
+    <TextView
+        android:id="@+id/bl_q"
+        android:layout_width="94dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="45dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:fontFamily="@font/rg"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/Blanket"
+        app:layout_constraintTop_toBottomOf="@+id/toiletries" />
+
+    <TextView
+        android:id="@+id/Diapers"
+        android:layout_width="194dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/sb"
+        android:paddingLeft="20dp"
+        android:text="DIAPERS"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Blanket" />
+
+    <TextView
+        android:id="@+id/di_q"
+        android:layout_width="92dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="72dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:fontFamily="@font/rg"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/Diapers"
+        app:layout_constraintTop_toBottomOf="@+id/bl_q" />
+
+    <TextView
+        android:id="@+id/Disinfectant"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/sb"
+        android:paddingLeft="18dp"
+        android:text="DISINFECTANT"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Diapers" />
+
+    <TextView
+        android:id="@+id/dis_q"
+        android:layout_width="93dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="40dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:fontFamily="@font/rg"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/Disinfectant"
+        app:layout_constraintTop_toBottomOf="@+id/di_q" />
+
+    <TextView
+        android:id="@+id/SanitaryNapkin"
+        android:layout_width="248dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/sb"
+        android:paddingLeft="18dp"
+        android:text="SANITARY NAPKIN"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Disinfectant" />
+
+    <TextView
+        android:id="@+id/sn_q"
+        android:layout_width="96dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/rg"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/SanitaryNapkin"
+        app:layout_constraintTop_toBottomOf="@+id/dis_q" />
+
+    <TextView
+        android:id="@+id/Soap"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/sb"
+        android:paddingLeft="20dp"
+        android:text="SOAP"
+        android:textColor="#000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SanitaryNapkin" />
+
+    <TextView
+        android:id="@+id/s_q"
+        android:layout_width="90dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/rg"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/Soap"
+        app:layout_constraintTop_toBottomOf="@+id/sn_q" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
